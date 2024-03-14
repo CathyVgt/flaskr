@@ -1,0 +1,10 @@
+name: My First Workflow 
+on: push 
+jobs: 
+	single_job: build
+		runs-on: ubuntu-latest 
+		steps: 
+			-	name: checkout repo 
+				uses: actions/checkout@v3
+			- 	name: say ih
+				run: echo "hello world"  
