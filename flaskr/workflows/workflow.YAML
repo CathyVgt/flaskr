@@ -6,5 +6,5 @@ jobs:
 		steps: 
 			-	name: checkout repo 
 				uses: actions/checkout@v3
-			- 	name: say ih
-				run: echo "hello world"  
+			- name: say hi
+				run: echo "hello world"
